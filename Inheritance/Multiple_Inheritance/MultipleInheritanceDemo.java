@@ -1,4 +1,4 @@
-
+package Inheritance.Multiple_Inheritance;
 
 interface Camera {
     void takePhoto();
@@ -20,7 +20,7 @@ class Smartphone implements Camera, MusicPlayer {
         System.out.println("Music playing on smartphone");
     }
 }
-public class MultipleInheritanceDemo {
+public class MultipleInheritanceDemo{
     public static void main(String[] args) {
 
         Smartphone phone = new Smartphone();
