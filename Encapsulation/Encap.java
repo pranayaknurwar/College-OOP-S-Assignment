@@ -1,13 +1,10 @@
 
 
  class Employee {
-
-    // private data members (DATA HIDING)
     private int empId;
     private String name;
     private double salary;
 
-    // setter methods (controlled access)
     public void setEmpId(int empId) {
         if (empId <= 0) {
             System.out.println("Invalid Employee ID");
@@ -32,7 +29,6 @@
         }
     }
 
-    // getter methods (read-only access)
     public int getEmpId() {
         return empId;
     }
