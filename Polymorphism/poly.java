@@ -21,4 +21,15 @@ class Cat extends Animal {
     }
 }
 
+public class poly {
+    public static void main(String[] args) {
 
+        Animal a;   // Parent reference
+
+        a = new Dog();  
+        a.sound();   // Dog barks
+
+        a = new Cat();  
+        a.sound();   // Cat meows
+    }
+}
