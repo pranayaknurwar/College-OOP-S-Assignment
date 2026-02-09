@@ -8,5 +8,8 @@ public class EmailValidation {
         } else {
             System.out.println("Invalid Email Address");
         }
+        
     }
+
+
 }
