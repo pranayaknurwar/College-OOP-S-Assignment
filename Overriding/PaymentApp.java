@@ -1,16 +1,20 @@
 package Overriding;
 
 class Payment {
+
     void processPayment() {
         System.out.println("Processing generic payment");
     }
+
 }
 
 class UpiPayment extends Payment {
+
     @Override
-    void processPayment() {
+    void processPayment(){
         System.out.println("Processing UPI payment");
     }
+
 }
 
 class CardPayment extends Payment {
@@ -26,8 +30,10 @@ public class PaymentApp {
 
         payment = new UpiPayment();
         payment.processPayment();
+        
 
         payment = new CardPayment();
         payment.processPayment();
     }
 }
+
